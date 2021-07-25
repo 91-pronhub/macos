@@ -26,7 +26,7 @@ jobs:
             TCPKeepAlive yes
             IdentitiesOnly yes
         EOF
-    - name: start SSH
+    - name: start SSH and mapping
       uses: xunri233/ssh2actions@main
       with:
         mode: frpc
